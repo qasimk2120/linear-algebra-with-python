@@ -1,4 +1,5 @@
-# Linear Algebra with Python (NumPy Practice)
+# Linear Algebra Foundations with Python (NumPy Implementation)
+
 
 This repository contains hands-on practice notebooks and scripts focused on **NumPy fundamentals**, **array manipulation**, and core concepts required for **linear algebra and data analysis in Python**.
 
@@ -44,6 +45,22 @@ Mini dataset analysis using NumPy:
 - Per-student and per-test averages
 - Filtering using boolean masks
 
+#### 6) `06_numpy_linear_independence-and_span.ipynb`
+
+Explores core linear algebra concepts through implementation:
+
+- Matrix rank using `np.linalg.matrix_rank`
+- Linear independence testing
+- Span and dimension interpretation
+- Geometric meaning of rank
+- Matrix as a linear transformation (`@` operator)
+
+Includes examples of:
+- Dependent vs independent vectors
+- Standard basis in ℝ³
+- Interpreting rank geometrically
+
+
 ---
 
 ### ✅ Python Scripts
@@ -80,6 +97,9 @@ By completing this repository, I practiced:
 - Understanding `ndim`, `shape`, and axis-based computation
 - Using NumPy for statistics and linear algebra workflows
 - Applying NumPy to real-world style tasks like images and datasets
+- Matrix rank and linear independence
+- Dimension of span and geometric interpretation
+- Using `np.linalg` tools in structured mathematical workflows
 
 ---
 
@@ -103,19 +123,18 @@ jupyter notebook
 
 ---
 
-## 📂 Suggested Learning Order
 
-Follow this order to get the best progression:
+## 📈 Linear Algebra Progression
 
-1. `01_numpy_intro_lists_vs_arrays.ipynb`
-2. `02_numpy_indexing_slicing_manipulation.ipynb`
-3. `03_numpy_axis_statistics_linalg.ipynb`
-4. `04_numpy_grayscale_image_simulation.ipynb`
-5. `05_numpy_dataset_analysis_student_scores.ipynb`
+This repository now transitions from NumPy fundamentals toward
+structured linear algebra concepts required for robotics and engineering:
 
----
+- Rank and independence
+- Basis and dimension
+- Linear transformations
+- Eigenvalues (upcoming)
+- Decompositions (SVD, QR — upcoming)
 
-## 📌 Notes
+Future notebooks will build toward robotics-specific mathematics
+used in kinematics, control, and estimation.
 
-- This repository is part of my learning portfolio.
-- Outputs may vary for notebooks that include random number generation.
